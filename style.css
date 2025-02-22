@@ -109,8 +109,9 @@ button{
 
 .quote{
     font-style: italic;
+    font-weight: 300;
     font-size: 36px;
-    max-width: 900px;
+    max-width: 800px;
     align-self: center;
 }
 
@@ -119,4 +120,41 @@ button{
     color:#1F2937;
     font-weight: 900;
     font-size: 36px;
+}
+
+.ad{
+    display: flex;
+    padding: 100px;
+    flex-direction: center;
+    justify-content: center;
+    flex:1;
+}
+
+.ad-box{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 0px;
+    max-width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    flex:1;
+}
+
+.ad-button{
+    border: 2px #F9FAF8 solid;
+    padding: 5px 25px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.ad-text-main{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.ad-text{
+    font-size: 20px;
+
 }
