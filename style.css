@@ -95,4 +95,28 @@ button{
 .text{
     text-align: center;
     max-width: 150px;
+    color:gray
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    max-width: 900px;
+    align-self: center;
+}
+
+.author{
+    align-self: flex-end;
+    color:#1F2937;
+    font-weight: 900;
+    font-size: 36px;
 }
